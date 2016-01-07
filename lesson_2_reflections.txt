@@ -9,3 +9,7 @@ The staging area is different from the working directory because it contains onl
 How can you use the staging area to make sure you have one commit per logical change?
 
 You can add only files to the staging area that contain parts that comprise the single logical change and then commit them as a group. If any files are accidentally added that do not belong, reviewing the staging area with git diff --staged and removing those unrelated files before commit can prevent unrelated changes from ending up in the commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches help keep git history organized by allowing you to break out changes that may not need to be in the master branch due to their experimental nature or because they would otherwise clutter or confuse the main branch. Branches create a parallel development stream with easy labels to assist in switching between them without necessitating memorization or annotation of long unique commit IDs.
