@@ -1,0 +1,42 @@
+How would diff tools help to produce good code?
+
+Diff tools help produce good code because they help identify subtle typos or other coding errors
+in source files. This would be especially helpful when making large numbers of small logic
+changes that might not stand out in the programmers memory. It would also help other programmers
+debug your code, since they otherwise lack the familiarity with it.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having access to the entire history of changes to a file would allow me to quickly revert bad changes I may
+have made.
+
+As a programmer, when would you want to have a version of your code saved?
+
+When I choose to save a version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manually Choosing -
+  Pro: Able to restrict commits to logical changes. Ensures commits contain complete changes with nothing in process.
+  Con: Potential to forget to commit.
+
+Automatically Saved -
+  Pro: Guaranteed to have versions saved.
+  Con: Not guaranteed for those versions to be logically complete or even compilable, depending on when the version is saved.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems like Git that allow saving multiple files in a single commit are built with software development in mind, in which multiple source files are usually associated and interrelated, thus they benefit from having their changes tracked as a logical unit. Other version control systems which treat files as separate entity are built around more generalized workloads, such as word processing, where in large part tasks produce single files that don't share tight interrelation.
+
+How can you use the commands git log and git diff to view the history of files?
+
+You can use git log to get a programmer notated overview of what functionality was changed with each commit. Using git diff lets you see on a line by line basis what was changed and where the changes were made. This is a more low level view.
+
+How might using version control make you more confident to make changes that could break something?
+
+I would be confident that I could quickly revert the change to a previous working version, which lowers the stakes when making changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git for supporting both the scripting work I do and the class assignments I will have in my iOS programming with Swift course.
