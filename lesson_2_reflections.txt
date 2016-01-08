@@ -21,3 +21,8 @@ The diagrams help show where each commit is in relation to the others and the ov
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches combines the commits in their history all the way from the point where they diverged to their ends. This allows you to quickly move features and changes into the a different branch once they're tested and ready to be used. WE represent it the way we do because we're not simply performing them as a sequence of commits in a linear fashion, and their commit history will reflect that as it is interleaved between the branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pro: Git annotates the locations where conflicts occur. If there are no conflicts, the process completes quickly.
+Con: In the event of a conflict, git leaves all the resolution up to the end user rather than attempting to derive a correct answer.
