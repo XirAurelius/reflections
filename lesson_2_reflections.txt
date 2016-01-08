@@ -13,3 +13,7 @@ You can add only files to the staging area that contain parts that comprise the 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches help keep git history organized by allowing you to break out changes that may not need to be in the master branch due to their experimental nature or because they would otherwise clutter or confuse the main branch. Branches create a parallel development stream with easy labels to assist in switching between them without necessitating memorization or annotation of long unique commit IDs.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help show where each commit is in relation to the others and the overall repository structure. They also help identify what commits might be unreachable. 
