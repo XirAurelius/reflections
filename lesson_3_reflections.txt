@@ -5,3 +5,9 @@ When I want to collaborate with others on a project. When I want to be able to w
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 If a bug was introduced with the most recent change I might not want to pull immediately. Also if I'm working on a feature that will go into a new branch that I will create when I am ready to commit I might not want my changes destroyed out from under my by Git when it auto syncs with the remote repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are used to create a copy of a remote repository where you don't want the changes you make to be reflected in the original source repository.
+Clones are used to create a copy of a remote repository so that you can work on and submit changes that are intended to be present in the remote repository.
+Branches are used to create a parallel development stream so that new features or changes can be worked on that won't be represented in other branches until they are merged by the developer.
